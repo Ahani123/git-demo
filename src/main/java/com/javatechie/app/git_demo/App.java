@@ -1,9 +1,5 @@
 package com.javatechie.app.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	
@@ -11,7 +7,7 @@ public class App
 	{
 		System.out.println("Data " +data);
 		
-		if(data.equals("java techie"))
+		if(data.equals(Constant.DATA_TYPE))
 		{
 			System.out.println("welome");
 		}
